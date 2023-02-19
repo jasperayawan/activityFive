@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: rgb(7, 7, 7);
+    
+}.logo{
+    text-decoration: none;
+    color: rgb(172, 163, 163);
+    font-weight: bold;
+} span{
+    color: yellow;
+}header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(56, 56, 56);
+}
+.navbar{
+    padding: 0 2rem;
+}
+.navbar .list-items{
+    display: flex; 
+}
+.list-items li{
+    margin: 0 2rem;
+    list-style: none;
+    cursor: pointer;
+}
+.list-items li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*---------------- container area --------------*/
+
+.container{
+    padding: 0 4rem;
+}
+.home{
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    border-left: 3px solid yellow;
+    padding-left: 2rem;
+}
+.home-content .p-hey{
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: rgb(167, 165, 165);
+}
+.home-content .p-aspiring{
+    font-size: 50px;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.home-content h1{
+    font-size: 50px;
+    color: rgb(77, 76, 76);
+}
+.home-content p{
+    color: rgb(66, 66, 66);
+}
+.btn{
+    margin: 1rem 0;
+    padding: .3rem .6rem;
+    border: 2px solid yellow;
+}
+
+
+/*-----------------------about area------------------*/
+
+.about{
+    margin: 13rem 0 5rem 0;
+}
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+}
+.about-title{
+    margin: 0 auto;
+    padding-left: 1rem;
+    width: 100px;
+    border-left: 2px solid yellow;
+}
+.left-content p{
+    color: rgb(78, 77, 77);
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+.left-content p button{
+    padding: .3rem .6rem;
+    margin: 1rem 0;
+    border: 2px solid yellow;
+}
+.right-content img{
+    width: 300px;
+    margin: 0 auto;
+}
